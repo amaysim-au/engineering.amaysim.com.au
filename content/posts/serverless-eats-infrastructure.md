@@ -12,7 +12,9 @@ Last Fall, the Australian census website crashed within hours of launching becau
 The real story here isn’t about governmental waste. It is about what a small team, in a short time and apparently with little prior knowledge of the cloud could accomplish — provided they had the right infrastructure technology — which in this case was AWS Lambda, Amazon’s server-less offering.
 
 ## Enter server-less
-The server-less architecture (aka Function-as-a-service or FaaS) is precisely that next-generation infrastructure that we need.
-Introduced by Amazon couple of re:Invent’s ago, the server-less architecture allows developers to run back-end code without having to manage their own server systems or server-side applications. Developers can combine their own code with best-in-class services from others to create applications that they could rapidly release and iterate through user testing.
+Some code:
+
+    npm install -g serverless
+
 
 [unofficial-link]:  https://amaysim.com.au

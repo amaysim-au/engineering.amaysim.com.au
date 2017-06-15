@@ -11,3 +11,4 @@ theme = "hugo-theme-minos"
 
 [params]
     disqusShortname = "yunspace"
+    googleAnalytics = "UA-123-45"
