@@ -1,3 +1,13 @@
 baseURL = "https://engineering.amaysim.com.au/"
 languageCode = "en-us"
-title = "Amaysim Engineering Blog"
+title = "amaysim engineering"
+paginate = 10
+theme = "hugo-theme-minos"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+
+[params]
+    disqusShortname = "yunspace"

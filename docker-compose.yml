@@ -3,17 +3,9 @@ services:
   hugo:
     image: jojomi/hugo:latest
     volumes:
-      - ./src/:/src
+      - .:/src
       - ./output/:/output
     env_file: .env
     restart: always
-
-  web:
-    image: jojomi/nginx-static
-    volumes:
-      - ./output:/var/www
-    environment:
-      - VIRTUAL_HOST=mydomain.com
-    ports:
-      - 80
-    restart: always
+  ports:
+    - 80
