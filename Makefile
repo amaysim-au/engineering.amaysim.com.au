@@ -1,4 +1,4 @@
 
 
 _server:
-	hugo server --theme=hugo-theme-minos --buildDrafts
+	hugo server --theme=amaysim-engineering-blog --buildDrafts

@@ -1,8 +1,9 @@
 baseURL = "https://engineering.amaysim.com.au/"
 languageCode = "en-us"
 title = "amaysim engineering"
+menus = "test"
 paginate = 10
-theme = "hugo-theme-minos"
+theme = "amaysim-engineering-blog"
 
 [taxonomies]
     tag = "tags"

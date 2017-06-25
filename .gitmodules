@@ -1,0 +1,6 @@
+[submodule "src/amaysim-design"]
+	path = src/amaysim-design
+	url = git@github.com:amaysim-au/amaysim-design.git
+[submodule "themes/amaysim-engineering-blog/src/amaysim-design"]
+	path = themes/amaysim-engineering-blog/src/amaysim-design
+	url = git@github.com:amaysim-au/amaysim-design.git
