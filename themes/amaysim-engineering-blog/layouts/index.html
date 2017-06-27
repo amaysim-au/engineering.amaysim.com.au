@@ -9,7 +9,7 @@
                 <!--<%- partial('post/gallery') %>-->
                 {{ if .Title }}
                 <header class="article-header">
-                    <h1 itemprop="name"><a class="article-title" href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+                    <h3 itemprop="name"><a class="article-title" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
                 </header>
                 {{ end }}
                 <div class="article-meta">
@@ -29,11 +29,6 @@
                         </div>
                     </div>
                     {{ end }}
-                    {{ if .Site.Params.disqusShortname }}
-                    <div class="article-comment-link-wrap">
-                        <a href="{{ .RelPermalink }}#disqus_thread" class="article-comment-link">Comments</a>
-                    </div>
-                    {{ end }}
                 </div>
                 <div class="article-entry" itemprop="articleBody">
                     <p>
@@ -41,7 +36,7 @@
                     {{ .Summary }}
                     </p>
                     <p class="article-more-link">
-                        <a href="{{ .RelPermalink }}">Read More Information</a>
+                        <a href="{{ .RelPermalink }}">Read More</a>
                     </p>
                 </div>
 
@@ -50,7 +45,7 @@
                     <ul class="article-tag-list">
                         {{ range .Params.tags }}
                         <li class="article-tag-list-item">
-                            <a class="article-tag-list-link" href="{{ $Site.BaseURL}}/tags/{{ . | urlize }}">{{ . }}
+                            <a class="article-tag-list-link" href="{{ $Site.BaseURL}}/tags/{{ . | urlize }}">#{{ . }}
                             </a>
                         </li>
                         {{ end }}

@@ -1,7 +1,7 @@
 +++
 date = "2017-06-14T16:27:15+10:00"
 draft = true
-title = "Server-less eats the Infrastructure"
+title = "Server-less eats the Infrastructure 2"
 tags = [ "Serverless", "Microservices", "serverless", "devops", "amazon" ]
 category = [ "infrastructure" ]
 +++
