@@ -7,6 +7,30 @@
 @import 'code-block';
 @import 'list';
 
+@font-face {
+  font-family: 'MarkOT';
+  font-weight: normal;
+  src:
+    url('fonts/MarkOT.woff2') format('woff2'),
+    url('fonts/MarkOT.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'MarkOT';
+  font-weight: 500;
+  src:
+    url('fonts/MarkOT-Medium.woff2') format('woff2'),
+    url('fonts/MarkOT-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'MarkOT';
+  font-weight: bold;
+  src:
+    url('fonts/MarkOT-Bold.woff2') format('woff2'),
+    url('fonts/MarkOT-Bold.woff') format('woff');
+}
+
 body {
 	background-color: #fff;
 	font-size: 1rem;
