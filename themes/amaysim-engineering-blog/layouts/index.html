@@ -34,9 +34,8 @@
                     <p>
                         {{ if .Params.featuredImage }}<img src="{{.Params.featuredImage}}"><br>{{ end }}
                     {{ .Summary }}
-                    </p>
-                    <p class="article-more-link">
-                        <a href="{{ .RelPermalink }}">Read More</a>
+                    <br/>
+                    <a href="{{ .RelPermalink }}" class="article-more-link">Read More</a>
                     </p>
                 </div>
 
